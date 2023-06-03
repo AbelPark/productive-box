@@ -12,6 +12,6 @@ jobs:
       - name: Update gist
         uses: maxam2017/productive-box@master
         env:
-          GH_TOKEN: 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
-          GIST_ID: https://gist.github.com/AbelPark/f2b5782bd73c385b9927e94b3ca8ffad
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+          GIST_ID: ${{ secrets.GIST_ID }}
           TIMEZONE: Asia/Seoul
